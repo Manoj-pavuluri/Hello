@@ -18,4 +18,6 @@ class Hello20 extends Component {
     }
 }
 
+
+
 export default Hello19(Hello20)
