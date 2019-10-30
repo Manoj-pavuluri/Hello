@@ -20,6 +20,7 @@ import hello17 from './hello17.js';
 import hello18 from './hello18';
 import Hello19 from './hello19';
 import Hello20 from './hello20';
+import Hello21 from './hello21';
 
 
 function App() {
@@ -43,6 +44,7 @@ function App() {
       <Route  component={hello18} path="/hello18" />
       <Route  component={Hello19} path="/hello19" />
       <Route  component={Hello20} path="/hello20" />
+      <Route  component={Hello21} path="/hello21" />
     </Switch>
 
     </div>
