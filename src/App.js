@@ -21,6 +21,10 @@ import hello18 from './hello18';
 import Hello19 from './hello19';
 import Hello20 from './hello20';
 import Hello21 from './hello21';
+import Hello23 from './hello23';
+import Hello25 from './hello25';
+import Hello24 from './hello24';
+import Hello26 from './hello26';
 
 
 function App() {
@@ -45,6 +49,11 @@ function App() {
       <Route  component={Hello19} path="/hello19" />
       <Route  component={Hello20} path="/hello20" />
       <Route  component={Hello21} path="/hello21" />
+      <Route  component={Hello23} path="/hello23" />
+      <Route  component={Hello24} path="/hello24" />
+      <Route  component={Hello25} path="/hello25" />
+      <Route  component={Hello26} path="/hello26" />
+
     </Switch>
 
     </div>
