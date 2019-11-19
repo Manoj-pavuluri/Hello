@@ -25,6 +25,8 @@ import Hello23 from './hello23';
 import Hello25 from './hello25';
 import Hello24 from './hello24';
 import Hello26 from './hello26';
+import Hello27 from './hello27';
+import Hello28 from './hello28';
 
 
 function App() {
@@ -53,6 +55,8 @@ function App() {
       <Route  component={Hello24} path="/hello24" />
       <Route  component={Hello25} path="/hello25" />
       <Route  component={Hello26} path="/hello26" />
+      <Route  component={Hello27} path="/hello27" />
+      <Route  component={Hello28} path="/hello28" />
 
     </Switch>
 
